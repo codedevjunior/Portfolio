@@ -1,0 +1,30 @@
+/**
+  Definir cores, font, font-family
+  https://api.whatsapp.com/send?phone=5542991664128&text=Entre%20em%20contato%20comigo!
+*/
+
+:root {
+  --color-day: #1d1e26;
+  --color-night: #ffffff;
+
+  --font-Barlow: Barlow;
+  --font-Normal: 1em;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-day);
+  font-family: var(--font-Barlow);
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul a {
+  font-size: var(--font-Normal);
+  text-decoration: none;
+  color: var(--color-night);
+}
